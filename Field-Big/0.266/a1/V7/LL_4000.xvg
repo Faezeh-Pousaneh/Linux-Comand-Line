@@ -1,0 +1,36 @@
+# This file was created Wed Nov 18 21:12:22 2020
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V7
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 10000 -ov LL_4000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 0.739 0.0396805
+ 0.739 0.0418551
+ 0.739 0.0417634
+ 1.045 0.0398356
+ 1.045 0.04053
+ 1.045 0.0394311
+ 1.045 0.0398876
+ 1.045 0.0400793
+ 1.045 0.0405572
+ 1.280 0.0407285
+ 1.280 0.0390083
+ 1.280 0.0386073
+ 1.280 0.0401177
+ 1.478 0.0390234
+ 1.478 0.0383322
+ 1.478 0.0391649

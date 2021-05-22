@@ -1,0 +1,74 @@
+# This file was created Mon Nov 16 11:23:33 2020
+# Created by:
+#                     :-) GROMACS - gmx density, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V8
+# Command line:
+#   gmx density -f NVT_F.xtc -s NVT_F.tpr -dens num -b 100000
+# gmx density is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Number density (nm\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "System"
+       0.088          43.5166
+       0.264          43.8494
+        0.44          44.3918
+       0.616          43.5743
+       0.792           44.439
+       0.968          44.0748
+       1.144          44.2451
+        1.32          44.1455
+       1.496          44.1691
+       1.672          43.7787
+       1.848          44.7508
+       2.024          44.4468
+         2.2          44.2215
+       2.376          43.6529
+       2.552          43.3096
+       2.728          44.8976
+       2.904          43.8127
+        3.08          43.0397
+       3.256          44.4442
+       3.432          44.2372
+       3.608          43.8284
+       3.784          43.9385
+        3.96          44.1901
+       4.136          44.8949
+       4.312          43.6319
+       4.488          44.2608
+       4.664          43.3253
+        4.84          43.7289
+       5.016          44.2582
+       5.192           44.177
+       5.368          43.7865
+       5.544          43.6817
+        5.72          44.4678
+       5.896          44.2634
+       6.072          44.6984
+       6.248           44.211
+       6.424          43.9228
+         6.6          42.8641
+       6.776          45.4085
+       6.952          43.6005
+       7.128          43.6948
+       7.304          43.2205
+        7.48           45.157
+       7.656          44.2739
+       7.832          43.4773
+       8.008          43.8206
+       8.184          43.3856
+        8.36          43.9228
+       8.536          44.0459
+       8.712           43.983

@@ -1,0 +1,36 @@
+# This file was created Mon Sep 16 21:37:58 2019
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/DHS/0.266/V1
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 10000 -ov LL_4000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 1.653 0.142967
+ 1.653 0.141742
+ 1.653 0.141623
+ 2.338 0.137579
+ 2.338 0.137522
+ 2.338 0.137292
+ 2.338 0.137393
+ 2.338 0.137327
+ 2.338 0.137489
+ 2.864 0.133296
+ 2.864 0.13398
+ 2.864 0.133123
+ 2.864 0.132734
+ 3.307 0.129275
+ 3.307 0.129709
+ 3.307 0.129836

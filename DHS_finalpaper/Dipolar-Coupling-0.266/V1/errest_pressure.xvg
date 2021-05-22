@@ -1,0 +1,49 @@
+# This file was created Sun Dec 29 14:51:12 2019
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/0.266/V1
+# Command line:
+#   gmx analyze -f pressure.xvg -ee errest_pressure.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "Error estimates"
+@    xaxis  label "Block size (time)"
+@    yaxis  label "Error estimate"
+@TYPE xy
+@ subtitle "using block averaging, total time 400000 (201 points)"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "av 2481.078622"
+@ s1 legend "ee 14.629"
+2000 13.7903 10.6601
+4000 14.3925 12.4604
+6000 13.795 13.1859
+8000 12.4745 13.5565
+10000 12.5054 13.7771
+12000 13.4131 13.9226
+14000 12.3511 14.0257
+16000 9.24437 14.1025
+18000 12.7703 14.162
+20000 10.5982 14.2094
+22000 13.3122 14.248
+26000 12.8256 14.3073
+28000 11.5158 14.3305
+30000 12.5871 14.3506
+32000 10.7755 14.3682
+36000 12.6083 14.3974
+40000 13.5851 14.4207
+44000 11.2849 14.4398
+50000 10.5463 14.4626
+56000 9.19721 14.4805
+66000 10.0166 14.5031
+80000 13.0059 14.5252
+100000 14.7113 14.546

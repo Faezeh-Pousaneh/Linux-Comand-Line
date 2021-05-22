@@ -1,0 +1,36 @@
+# This file was created Thu Nov 19 00:21:55 2020
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V8
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 20000 -ov LL_8000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 0.714 0.0366943
+ 0.714 0.0357764
+ 0.714 0.0359577
+ 1.010 0.0352319
+ 1.010 0.0362097
+ 1.010 0.0362092
+ 1.010 0.0355324
+ 1.010 0.0355168
+ 1.010 0.0360938
+ 1.237 0.0342167
+ 1.237 0.0356221
+ 1.237 0.0350002
+ 1.237 0.0351401
+ 1.428 0.0341456
+ 1.428 0.0336115
+ 1.428 0.034122

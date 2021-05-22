@@ -1,0 +1,74 @@
+# This file was created Sun Dec 29 01:34:33 2019
+# Created by:
+#                     :-) GROMACS - gmx density, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/0.266/V2
+# Command line:
+#   gmx density -f NVT.xtc -s NVT.tpr -dens num -b 600000
+# gmx density is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Number density (nm\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "System"
+       0.041          72.0632
+       0.123          72.3741
+       0.205          69.6104
+       0.287          75.4487
+       0.369          72.8232
+       0.451          68.7468
+       0.533          77.6942
+       0.615          71.8559
+       0.697          66.9504
+       0.779           74.896
+       0.861          73.3414
+       0.943          72.5814
+       1.025          68.2631
+       1.107          76.4505
+       1.189          72.1323
+       1.271          71.0268
+       1.353          70.4395
+       1.435          75.7596
+       1.517          73.8941
+       1.599          73.8596
+       1.681          69.9904
+       1.763          72.4086
+       1.845          71.4068
+       1.927          79.0415
+       2.009          72.8923
+       2.091          72.7887
+       2.173           71.925
+       2.255          68.8504
+       2.337          76.0014
+       2.419          72.9268
+       2.501          70.1977
+       2.583          70.7159
+       2.665           77.176
+       2.747          74.3087
+       2.829          70.6813
+       2.911          70.8195
+       2.993          74.5851
+       3.075          72.9959
+       3.157          71.3032
+       3.239          71.2686
+       3.321          73.3414
+       3.403          72.3396
+       3.485          73.2378
+       3.567          71.2341
+       3.649          72.4777
+       3.731          74.9305
+       3.813          72.4432
+       3.895          69.8522
+       3.977          71.4759
+       4.059          73.5141

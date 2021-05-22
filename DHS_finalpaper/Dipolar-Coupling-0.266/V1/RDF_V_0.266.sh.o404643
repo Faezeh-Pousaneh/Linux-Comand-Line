@@ -1,0 +1,11 @@
+No Prologue was run  Wed Sep 18 16:06:28 CEST 2019 
+Analysing residue names:
+There are:  1000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 24x24x24, spacing 0.158 0.158 0.158
+Start Epilogue v3.0.1 Wed Sep 18 16:32:58 CEST 2019 
+clean up
+End Epilogue v3.0.1 Wed Sep 18 16:32:59 CEST 2019 

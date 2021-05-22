@@ -1,0 +1,36 @@
+# This file was created Thu Nov 19 00:35:11 2020
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V7
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 20000 -ov LL_8000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 0.739 0.0397829
+ 0.739 0.0416481
+ 0.739 0.0414169
+ 1.045 0.0396361
+ 1.045 0.040169
+ 1.045 0.0392171
+ 1.045 0.0397989
+ 1.045 0.0399385
+ 1.045 0.0404489
+ 1.280 0.0403851
+ 1.280 0.0390877
+ 1.280 0.0384432
+ 1.280 0.039756
+ 1.478 0.0386762
+ 1.478 0.0381868
+ 1.478 0.0392627

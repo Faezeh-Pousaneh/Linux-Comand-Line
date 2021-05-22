@@ -1,0 +1,36 @@
+# This file was created Fri Jun 26 12:46:03 2020
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V9
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 40000 -ov LL_16000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 0.545 0.0212402
+ 0.545 0.0203527
+ 0.545 0.0207191
+ 0.770 0.0200183
+ 0.770 0.019694
+ 0.770 0.0201598
+ 0.770 0.0202865
+ 0.770 0.019976
+ 0.770 0.0195868
+ 0.943 0.0187941
+ 0.943 0.0191042
+ 0.943 0.0199254
+ 0.943 0.0196445
+ 1.089 0.0185185
+ 1.089 0.0189336
+ 1.089 0.0186327

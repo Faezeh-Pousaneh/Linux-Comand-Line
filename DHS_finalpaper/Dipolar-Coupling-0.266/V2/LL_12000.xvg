@@ -1,0 +1,36 @@
+# This file was created Mon Sep 16 23:37:05 2019
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/DHS/0.266/V2
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 30000 -ov LL_12000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 1.532 0.0753297
+ 1.532 0.0745983
+ 1.532 0.0759185
+ 2.167 0.0724197
+ 2.167 0.0722216
+ 2.167 0.0723611
+ 2.167 0.0723009
+ 2.167 0.0719579
+ 2.167 0.0721539
+ 2.654 0.0699721
+ 2.654 0.0704298
+ 2.654 0.0695223
+ 2.654 0.0697217
+ 3.065 0.0675537
+ 3.065 0.0682747
+ 3.065 0.0683315

@@ -1,0 +1,36 @@
+# This file was created Sun Dec 29 14:51:12 2019
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/0.266/V1
+# Command line:
+#   gmx analyze -f density.xvg -ee errest_Dens.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Error estimates"
+@    xaxis  label "Block size (time)"
+@    yaxis  label "Error estimate"
+@TYPE xy
+@ subtitle "using block averaging, total time 3.724 (50 points)"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "av 91.121164"
+@ s1 legend "ee 0.436636"
+0.076 0.51659 0.354445
+0.152 0.487872 0.395031
+0.228 0.458298 0.40926
+0.304 0.330391 0.416268
+0.38 0.280317 0.42042
+0.456 0.392271 0.423166
+0.532 0.283642 0.425116
+0.608 0.342292 0.426573
+0.76 0.166782 0.428605
+0.912 0.125974 0.429954

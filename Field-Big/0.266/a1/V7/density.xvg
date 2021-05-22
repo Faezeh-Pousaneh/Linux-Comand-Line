@@ -1,0 +1,74 @@
+# This file was created Mon Nov 16 11:23:31 2020
+# Created by:
+#                     :-) GROMACS - gmx density, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V7
+# Command line:
+#   gmx density -f NVT_F.xtc -s NVT_F.tpr -dens num -b 100000
+# gmx density is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Number density (nm\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "System"
+       0.085          48.9812
+       0.255          48.3638
+       0.425          49.6551
+       0.595          48.2371
+       0.765          49.6981
+       0.935            48.47
+       1.105           48.357
+       1.275          48.8997
+       1.445          49.3588
+       1.615          47.9363
+       1.785          49.6144
+       1.955          48.1919
+       2.125          48.8387
+       2.295          48.8432
+       2.465          49.2526
+       2.635          48.8568
+       2.805          49.5873
+       2.975          47.9838
+       3.145          48.9699
+       3.315          49.8745
+       3.485          48.4384
+       3.655          48.6487
+       3.825          48.5356
+       3.995          48.6713
+       4.165          49.7071
+       4.335          48.4429
+       4.505          48.3773
+       4.675          49.8948
+       4.845          49.1983
+       5.015          49.0287
+       5.185          48.7821
+       5.355          48.4452
+       5.525          49.3498
+       5.695          48.5515
+       5.865          48.6374
+       6.035          48.8477
+       6.205           49.282
+       6.375          48.6351
+       6.545          48.8342
+       6.715          48.5288
+       6.885           48.807
+       7.055          48.5673
+       7.225          49.5081
+       7.395          48.1851
+       7.565          49.0784
+       7.735           48.764
+       7.905          48.6939
+       8.075          49.3204
+       8.245          47.7622
+       8.415           49.006

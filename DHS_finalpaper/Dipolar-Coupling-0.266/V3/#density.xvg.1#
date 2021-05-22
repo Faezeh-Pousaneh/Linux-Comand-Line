@@ -1,0 +1,74 @@
+# This file was created Sun Dec 29 01:34:34 2019
+# Created by:
+#                     :-) GROMACS - gmx density, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/0.266/V3
+# Command line:
+#   gmx density -f NVT.xtc -s NVT.tpr -dens num -b 600000
+# gmx density is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Number density (nm\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "System"
+       0.044          57.9977
+       0.132          59.6747
+        0.22          55.9014
+       0.308          60.6251
+       0.396          58.7803
+       0.484          59.5909
+       0.572          57.6343
+        0.66          58.1095
+       0.748          57.4946
+       0.836          58.5847
+       0.924          59.3393
+       1.012          58.0257
+         1.1          60.5971
+       1.188          54.1964
+       1.276          57.6343
+       1.364           59.507
+       1.452          61.2959
+        1.54          57.6343
+       1.628          52.7709
+       1.716          60.5412
+       1.804          57.9697
+       1.892           58.389
+        1.98            57.83
+       2.068          61.0443
+       2.156          59.2275
+       2.244          56.2927
+       2.332           58.976
+        2.42          57.4387
+       2.508           60.122
+       2.596          63.2804
+       2.684          54.7275
+       2.772          61.6872
+        2.86          62.1344
+       2.948          63.2804
+       3.036          55.8175
+       3.124           58.389
+       3.212          59.1716
+         3.3          61.4356
+       3.388          60.1779
+       3.476          58.0536
+       3.564          58.0816
+       3.652          59.3114
+        3.74          56.0132
+       3.828          58.8362
+       3.916          60.5133
+       4.004            57.83
+       4.092          54.6995
+        4.18          56.6281
+       4.268          61.7151
+       4.356          59.8145

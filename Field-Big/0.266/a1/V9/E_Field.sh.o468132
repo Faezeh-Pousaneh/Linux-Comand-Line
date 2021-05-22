@@ -1,0 +1,23 @@
+No Prologue was run  Fri Jun 26 10:04:02 CEST 2020 
+Selected 0: 'System'
+Density = 259.826 (kg/m^3)
+Average correlation time 2978941.250 Std. Dev. 4452895.000 Error 561012.062 (ps)
+k  0.545  tau  1.334  eta  0.02124 10^-3 kg/(m s)
+k  0.545  tau  1.347  eta  0.02035 10^-3 kg/(m s)
+k  0.545  tau  1.292  eta  0.02072 10^-3 kg/(m s)
+k  0.770  tau  1.302  eta  0.02002 10^-3 kg/(m s)
+k  0.770  tau  1.250  eta  0.01969 10^-3 kg/(m s)
+k  0.770  tau  1.252  eta  0.02016 10^-3 kg/(m s)
+k  0.770  tau  1.272  eta  0.02029 10^-3 kg/(m s)
+k  0.770  tau  1.271  eta  0.01998 10^-3 kg/(m s)
+k  0.770  tau  1.230  eta  0.01959 10^-3 kg/(m s)
+k  0.943  tau  1.132  eta  0.01879 10^-3 kg/(m s)
+k  0.943  tau  1.194  eta  0.01910 10^-3 kg/(m s)
+k  0.943  tau  1.240  eta  0.01993 10^-3 kg/(m s)
+k  0.943  tau  1.215  eta  0.01964 10^-3 kg/(m s)
+k  1.089  tau  1.102  eta  0.01852 10^-3 kg/(m s)
+k  1.089  tau  1.144  eta  0.01893 10^-3 kg/(m s)
+k  1.089  tau  1.119  eta  0.01863 10^-3 kg/(m s)
+Start Epilogue v3.0.1 Fri Jun 26 12:46:03 CEST 2020 
+clean up
+End Epilogue v3.0.1 Fri Jun 26 12:46:08 CEST 2020 

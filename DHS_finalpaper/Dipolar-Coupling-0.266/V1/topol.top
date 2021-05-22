@@ -1,0 +1,41 @@
+#include "gromos54a7.ff/forcefield.itp"
+
+; Here we introduce a special virtual site (mass center)
+[ atomtypes ]
+; name  bond_type    mass    charge   ptype          sigma      epsilon
+  MCO   MCO          0.000   0.000    A              0.000      0.000
+
+[ moleculetype ]
+; name  nrexcl
+CO2     2
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+     1        fa_o       1    CO2     O1      1     0.266      0.000
+     2        fa_c       1    CO2      C      1     0.000      0.000
+     3        fa_o       1    CO2     O2      1    -0.266      0.000
+     4        MCO        1    CO2     M1      1     0.000      19.970
+     5        MCO        1    CO2     M2      1     0.000      19.970
+
+[ constraints ]
+; There are no bonds in this system
+; Instead, we fix the distance between the mass centers such that
+; the virtual sites can be reconstructed
+    4   5   1   0.071000
+
+[ virtual_sites2 ]
+; the M--O distance is  (0.008-0.007=0.001) 0.125 - 0.1065865 = 0.0184135
+; the M--M distance is (0.014)  0.213173
+; the fraction of the distance along the M--M length is(0.014+0.001/0.014=1.071428571)  (0.213173+0.0184135)/0.213173 =1.0851116
+; thus placing the virtual O sites beyond the M--M distance 
+; site  ai  aj  funct   a
+     1   4   5      1   1.0500000   ; relative to mass center 4, extends beyond mass center 5 
+     2   4   5      1   0.5000000      ; right in the middle
+     3   5   4      1   1.0500000   ; as in the case of site 1
+
+[ system ]
+CO2 in vacuo
+
+[ molecules ]
+CO2     1000
+

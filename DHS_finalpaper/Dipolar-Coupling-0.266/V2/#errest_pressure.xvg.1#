@@ -1,0 +1,49 @@
+# This file was created Sun Dec 29 01:34:33 2019
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/0.266/V2
+# Command line:
+#   gmx analyze -f pressure.xvg -ee errest_pressure.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Error estimates"
+@    xaxis  label "Block size (time)"
+@    yaxis  label "Error estimate"
+@TYPE xy
+@ subtitle "using block averaging, total time 400000 (201 points)"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "av 1279.413993"
+@ s1 legend "ee 8.95943"
+2000 8.40499 6.51089
+4000 8.94459 7.61871
+6000 7.63964 8.06681
+8000 7.65554 8.29599
+10000 7.1959 8.43245
+12000 7.43985 8.52248
+14000 9.08516 8.58626
+16000 6.90716 8.63378
+18000 6.28691 8.67057
+20000 7.01661 8.69989
+22000 7.0131 8.7238
+26000 8.25302 8.76046
+28000 7.1457 8.77483
+30000 7.16675 8.78725
+32000 7.87941 8.79811
+36000 6.77339 8.81618
+40000 6.05848 8.83061
+44000 7.24715 8.8424
+50000 7.68114 8.85653
+56000 6.49489 8.86761
+66000 6.66322 8.88158
+80000 8.58438 8.89525
+100000 9.51921 8.90813

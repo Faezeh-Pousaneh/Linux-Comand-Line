@@ -1,0 +1,96 @@
+No Prologue was run  Tue Jul 14 15:06:47 CEST 2020 
+Extending remaining runtime of by 100000 ps (now 550000000 steps)
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.157 0.157 0.157
+This run will generate roughly 16 Mb of data
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.157 0.157 0.157
+Selected 0: 'System'
+Density = 583.083 (kg/m^3)
+Average correlation time 3522260.000 Std. Dev. 6411255.000 Error 807742.250 (ps)
+k  0.714  tau  0.345  eta  0.03555 10^-3 kg/(m s)
+k  0.714  tau  0.405  eta  0.03675 10^-3 kg/(m s)
+k  0.714  tau  0.436  eta  0.03879 10^-3 kg/(m s)
+k  1.010  tau  0.351  eta  0.03570 10^-3 kg/(m s)
+k  1.010  tau  0.324  eta  0.03498 10^-3 kg/(m s)
+k  1.010  tau  0.396  eta  0.03606 10^-3 kg/(m s)
+k  1.010  tau  0.365  eta  0.03651 10^-3 kg/(m s)
+k  1.010  tau  0.384  eta  0.03630 10^-3 kg/(m s)
+k  1.010  tau  0.357  eta  0.03568 10^-3 kg/(m s)
+k  1.237  tau  0.348  eta  0.03547 10^-3 kg/(m s)
+k  1.237  tau  0.353  eta  0.03486 10^-3 kg/(m s)
+k  1.237  tau  0.319  eta  0.03472 10^-3 kg/(m s)
+k  1.237  tau  0.317  eta  0.03413 10^-3 kg/(m s)
+k  1.428  tau  0.315  eta  0.03411 10^-3 kg/(m s)
+k  1.428  tau  0.354  eta  0.03419 10^-3 kg/(m s)
+k  1.428  tau  0.297  eta  0.03376 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 583.139 (kg/m^3)
+Average correlation time 3823572.750 Std. Dev. 5674194.000 Error 714881.250 (ps)
+k  0.714  tau  0.345  eta  0.03586 10^-3 kg/(m s)
+k  0.714  tau  0.408  eta  0.03700 10^-3 kg/(m s)
+k  0.714  tau  0.441  eta  0.03919 10^-3 kg/(m s)
+k  1.010  tau  0.349  eta  0.03585 10^-3 kg/(m s)
+k  1.010  tau  0.331  eta  0.03519 10^-3 kg/(m s)
+k  1.010  tau  0.407  eta  0.03662 10^-3 kg/(m s)
+k  1.010  tau  0.377  eta  0.03689 10^-3 kg/(m s)
+k  1.010  tau  0.376  eta  0.03570 10^-3 kg/(m s)
+k  1.010  tau  0.364  eta  0.03597 10^-3 kg/(m s)
+k  1.237  tau  0.346  eta  0.03498 10^-3 kg/(m s)
+k  1.237  tau  0.362  eta  0.03521 10^-3 kg/(m s)
+k  1.237  tau  0.312  eta  0.03438 10^-3 kg/(m s)
+k  1.237  tau  0.313  eta  0.03410 10^-3 kg/(m s)
+k  1.428  tau  0.312  eta  0.03404 10^-3 kg/(m s)
+k  1.428  tau  0.337  eta  0.03394 10^-3 kg/(m s)
+k  1.428  tau  0.278  eta  0.03331 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 583.247 (kg/m^3)
+Average correlation time 3909620.750 Std. Dev. 6358760.000 Error 801128.500 (ps)
+k  0.714  tau  0.367  eta  0.03705 10^-3 kg/(m s)
+k  0.714  tau  0.456  eta  0.03825 10^-3 kg/(m s)
+k  0.714  tau  0.439  eta  0.03853 10^-3 kg/(m s)
+k  1.010  tau  0.369  eta  0.03565 10^-3 kg/(m s)
+k  1.010  tau  0.357  eta  0.03510 10^-3 kg/(m s)
+k  1.010  tau  0.394  eta  0.03603 10^-3 kg/(m s)
+k  1.010  tau  0.349  eta  0.03582 10^-3 kg/(m s)
+k  1.010  tau  0.396  eta  0.03637 10^-3 kg/(m s)
+k  1.010  tau  0.348  eta  0.03645 10^-3 kg/(m s)
+k  1.237  tau  0.324  eta  0.03478 10^-3 kg/(m s)
+k  1.237  tau  0.345  eta  0.03422 10^-3 kg/(m s)
+k  1.237  tau  0.343  eta  0.03513 10^-3 kg/(m s)
+k  1.237  tau  0.261  eta  0.03364 10^-3 kg/(m s)
+k  1.428  tau  0.322  eta  0.03414 10^-3 kg/(m s)
+k  1.428  tau  0.340  eta  0.03341 10^-3 kg/(m s)
+k  1.428  tau  0.276  eta  0.03278 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 583.54 (kg/m^3)
+Average correlation time 3636606.250 Std. Dev. 6329765.000 Error 797475.438 (ps)
+k  0.714  tau  0.358  eta  0.03820 10^-3 kg/(m s)
+k  0.714  tau  0.477  eta  0.03821 10^-3 kg/(m s)
+k  0.714  tau  0.397  eta  0.03583 10^-3 kg/(m s)
+k  1.010  tau  0.312  eta  0.03426 10^-3 kg/(m s)
+k  1.010  tau  0.404  eta  0.03549 10^-3 kg/(m s)
+k  1.010  tau  0.413  eta  0.03562 10^-3 kg/(m s)
+k  1.010  tau  0.332  eta  0.03526 10^-3 kg/(m s)
+k  1.010  tau  0.375  eta  0.03705 10^-3 kg/(m s)
+k  1.010  tau  0.307  eta  0.03512 10^-3 kg/(m s)
+k  1.237  tau  0.314  eta  0.03409 10^-3 kg/(m s)
+k  1.237  tau  0.334  eta  0.03417 10^-3 kg/(m s)
+k  1.237  tau  0.339  eta  0.03508 10^-3 kg/(m s)
+k  1.237  tau  0.258  eta  0.03308 10^-3 kg/(m s)
+k  1.428  tau  0.326  eta  0.03412 10^-3 kg/(m s)
+k  1.428  tau  0.331  eta  0.03346 10^-3 kg/(m s)
+k  1.428  tau  0.264  eta  0.03208 10^-3 kg/(m s)
+Start Epilogue v3.0.1 Thu Jul 16 16:27:46 CEST 2020 
+clean up
+End Epilogue v3.0.1 Thu Jul 16 16:27:51 CEST 2020 

@@ -1,0 +1,36 @@
+# This file was created Mon Sep 16 22:35:18 2019
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/DHS/0.266/V2
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 20000 -ov LL_8000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 1.532 0.0755741
+ 1.532 0.074498
+ 1.532 0.0757385
+ 2.167 0.0721718
+ 2.167 0.0719406
+ 2.167 0.0724746
+ 2.167 0.0722888
+ 2.167 0.0719953
+ 2.167 0.0719956
+ 2.654 0.0700753
+ 2.654 0.0705304
+ 2.654 0.0696153
+ 2.654 0.0697398
+ 3.065 0.0674883
+ 3.065 0.068302
+ 3.065 0.0682072

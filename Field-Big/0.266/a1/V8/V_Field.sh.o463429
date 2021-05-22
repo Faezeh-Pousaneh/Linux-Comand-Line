@@ -1,0 +1,80 @@
+No Prologue was run  Wed Jun 10 02:43:14 CEST 2020 
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.001, 0.001 nm
+Largest charge group radii for Coulomb:       0.040, 0.040 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 80x80x80, spacing 0.110 0.110 0.110
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.001, 0.001 nm
+Largest charge group radii for Coulomb:       0.040, 0.040 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.157 0.157 0.157
+This run will generate roughly 5 Mb of data
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.157 0.157 0.157
+This run will generate roughly 20 Mb of data
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.157 0.157 0.157
+This run will generate roughly 12 Mb of data
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.157 0.157 0.157
+Selected 0: 'System'
+Density = 583.002 (kg/m^3)
+Average correlation time 2443575.250 Std. Dev. 4335202.500 Error 546184.188 (ps)
+k  0.714  tau  0.359  eta  0.03513 10^-3 kg/(m s)
+k  0.714  tau  0.379  eta  0.03458 10^-3 kg/(m s)
+k  0.714  tau  0.347  eta  0.03444 10^-3 kg/(m s)
+k  1.010  tau  0.319  eta  0.03454 10^-3 kg/(m s)
+k  1.010  tau  0.333  eta  0.03420 10^-3 kg/(m s)
+k  1.010  tau  0.326  eta  0.03506 10^-3 kg/(m s)
+k  1.010  tau  0.317  eta  0.03425 10^-3 kg/(m s)
+k  1.010  tau  0.357  eta  0.03376 10^-3 kg/(m s)
+k  1.010  tau  0.366  eta  0.03374 10^-3 kg/(m s)
+k  1.237  tau  0.322  eta  0.03426 10^-3 kg/(m s)
+k  1.237  tau  0.316  eta  0.03365 10^-3 kg/(m s)
+k  1.237  tau  0.314  eta  0.03387 10^-3 kg/(m s)
+k  1.237  tau  0.295  eta  0.03349 10^-3 kg/(m s)
+k  1.428  tau  0.288  eta  0.03219 10^-3 kg/(m s)
+k  1.428  tau  0.317  eta  0.03248 10^-3 kg/(m s)
+k  1.428  tau  0.312  eta  0.03189 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 583.011 (kg/m^3)
+Average correlation time 2311930.500 Std. Dev. 5360079.500 Error 675306.562 (ps)
+k  0.714  tau  0.362  eta  0.03515 10^-3 kg/(m s)
+k  0.714  tau  0.389  eta  0.03462 10^-3 kg/(m s)
+k  0.714  tau  0.344  eta  0.03448 10^-3 kg/(m s)
+k  1.010  tau  0.322  eta  0.03457 10^-3 kg/(m s)
+k  1.010  tau  0.330  eta  0.03415 10^-3 kg/(m s)
+k  1.010  tau  0.325  eta  0.03503 10^-3 kg/(m s)
+k  1.010  tau  0.317  eta  0.03423 10^-3 kg/(m s)
+k  1.010  tau  0.361  eta  0.03388 10^-3 kg/(m s)
+k  1.010  tau  0.369  eta  0.03400 10^-3 kg/(m s)
+k  1.237  tau  0.326  eta  0.03424 10^-3 kg/(m s)
+k  1.237  tau  0.320  eta  0.03376 10^-3 kg/(m s)
+k  1.237  tau  0.306  eta  0.03363 10^-3 kg/(m s)
+k  1.237  tau  0.292  eta  0.03350 10^-3 kg/(m s)
+k  1.428  tau  0.296  eta  0.03236 10^-3 kg/(m s)
+k  1.428  tau  0.318  eta  0.03245 10^-3 kg/(m s)
+k  1.428  tau  0.313  eta  0.03193 10^-3 kg/(m s)
+Start Epilogue v3.0.1 Sat Jun 13 09:54:51 CEST 2020 
+clean up
+End Epilogue v3.0.1 Sat Jun 13 09:54:55 CEST 2020 

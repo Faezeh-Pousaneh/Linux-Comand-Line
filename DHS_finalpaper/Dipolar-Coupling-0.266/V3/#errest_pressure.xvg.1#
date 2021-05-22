@@ -1,0 +1,49 @@
+# This file was created Sun Dec 29 01:34:34 2019
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/0.266/V3
+# Command line:
+#   gmx analyze -f pressure.xvg -ee errest_pressure.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "Error estimates"
+@    xaxis  label "Block size (time)"
+@    yaxis  label "Error estimate"
+@TYPE xy
+@ subtitle "using block averaging, total time 400000 (201 points)"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "av 763.083047"
+@ s1 legend "ee 5.56519"
+2000 5.51373 4.16707
+4000 5.09238 4.81698
+6000 5.38166 5.06966
+8000 4.71577 5.19704
+10000 5.13608 5.27262
+12000 4.70251 5.32249
+14000 4.71912 5.35783
+16000 4.84257 5.38419
+18000 5.06984 5.4046
+20000 4.50471 5.42087
+22000 4.71122 5.43415
+26000 5.67165 5.45452
+28000 5.4836 5.4625
+30000 5.45149 5.4694
+32000 5.55598 5.47544
+36000 5.91207 5.48548
+40000 4.76596 5.49351
+44000 5.18307 5.50006
+50000 5.61512 5.50792
+56000 5.20576 5.51408
+66000 3.69778 5.52186
+80000 5.83099 5.52947
+100000 6.80467 5.53663

@@ -1,0 +1,74 @@
+# This file was created Sun Dec 29 14:51:12 2019
+# Created by:
+#                     :-) GROMACS - gmx density, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/0.266/V1
+# Command line:
+#   gmx density -f NVT.xtc -s NVT.tpr -dens num -b 600000
+# gmx density is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Number density (nm\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "System"
+       0.038          89.5591
+       0.114          93.0304
+        0.19          86.7821
+       0.266          100.407
+       0.342           92.987
+       0.418          90.3835
+       0.494          88.9516
+        0.57          88.9516
+       0.646          96.1979
+       0.722          85.8708
+       0.798          83.7447
+       0.874          95.2433
+        0.95          90.7306
+       1.026          93.4209
+       1.102          87.7367
+       1.178          84.5691
+       1.254          94.3755
+        1.33          89.7327
+       1.406          96.5016
+       1.482          89.5591
+       1.558           88.995
+       1.634           89.776
+        1.71          94.7226
+       1.786          93.6812
+       1.862          91.0778
+       1.938          83.2674
+       2.014          91.2079
+        2.09          94.4189
+       2.166          88.6479
+       2.242          93.3775
+       2.318          92.6398
+       2.394          90.3835
+        2.47          92.4663
+       2.546          86.9122
+       2.622          92.5097
+       2.698          91.9456
+       2.774          95.1999
+        2.85          93.2473
+       2.926          85.4803
+       3.002          93.0738
+       3.078          94.8962
+       3.154          93.0738
+        3.23          86.5651
+       3.306          84.7861
+       3.382           93.985
+       3.458           94.549
+       3.534          90.2967
+        3.61          90.3835
+       3.686          94.1151
+       3.762          91.6419

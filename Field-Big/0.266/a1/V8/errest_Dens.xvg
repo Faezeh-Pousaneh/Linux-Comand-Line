@@ -1,0 +1,36 @@
+# This file was created Mon Nov 16 11:23:33 2020
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V8
+# Command line:
+#   gmx analyze -f density.xvg -ee errest_Dens.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Error estimates"
+@    xaxis  label "Block size (time)"
+@    yaxis  label "Error estimate"
+@TYPE xy
+@ subtitle "using block averaging, total time 8.624 (50 points)"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "av 44.022348"
+@ s1 legend "ee 0.0750994"
+0.176 0.0735749 0.0556671
+0.352 0.0782731 0.0646199
+0.528 0.0650396 0.0681478
+0.704 0.0665037 0.0699344
+0.88 0.0317829 0.0709955
+1.056 0.0668004 0.0716956
+1.232 0.0457862 0.0721916
+1.408 0.0558803 0.0725615
+1.76 0.034322 0.0730761
+2.112 0.0458924 0.0734172

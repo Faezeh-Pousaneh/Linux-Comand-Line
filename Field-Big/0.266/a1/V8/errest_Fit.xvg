@@ -1,0 +1,27 @@
+# This file was created Mon Nov 16 11:23:34 2020
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V8
+# Command line:
+#   gmx analyze -f Fit_VIS_table.xvg -ee errest_Fit.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "Error estimates"
+@    xaxis  label "Block size (time)"
+@    yaxis  label "Error estimate"
+@TYPE xy
+@ subtitle "using block averaging, total time 3 (4 points)"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "av 0.039219"
+@ s1 legend "ee 8.55615e-05"
+1 6.86162e-05 5.12349e-05

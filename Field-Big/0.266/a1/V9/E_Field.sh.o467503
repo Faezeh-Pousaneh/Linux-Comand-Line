@@ -1,0 +1,68 @@
+No Prologue was run  Sun Jun 21 03:52:32 CEST 2020 
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 80x80x80, spacing 0.144 0.144 0.144
+Selected 0: 'System'
+Density = 258.515 (kg/m^3)
+Average correlation time 2980353.250 Std. Dev. 4671059.500 Error 588498.125 (ps)
+k  0.545  tau  1.331  eta  0.02101 10^-3 kg/(m s)
+k  0.545  tau  1.344  eta  0.02019 10^-3 kg/(m s)
+k  0.545  tau  1.295  eta  0.02045 10^-3 kg/(m s)
+k  0.770  tau  1.295  eta  0.01994 10^-3 kg/(m s)
+k  0.770  tau  1.230  eta  0.01957 10^-3 kg/(m s)
+k  0.770  tau  1.251  eta  0.02000 10^-3 kg/(m s)
+k  0.770  tau  1.279  eta  0.02012 10^-3 kg/(m s)
+k  0.770  tau  1.268  eta  0.01983 10^-3 kg/(m s)
+k  0.770  tau  1.239  eta  0.01957 10^-3 kg/(m s)
+k  0.943  tau  1.144  eta  0.01878 10^-3 kg/(m s)
+k  0.943  tau  1.194  eta  0.01902 10^-3 kg/(m s)
+k  0.943  tau  1.218  eta  0.01962 10^-3 kg/(m s)
+k  0.943  tau  1.224  eta  0.01932 10^-3 kg/(m s)
+k  1.089  tau  1.096  eta  0.01841 10^-3 kg/(m s)
+k  1.089  tau  1.188  eta  0.01901 10^-3 kg/(m s)
+k  1.089  tau  1.104  eta  0.01843 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 258.865 (kg/m^3)
+Average correlation time 2836655.500 Std. Dev. 4558565.000 Error 574325.188 (ps)
+k  0.545  tau  1.343  eta  0.02109 10^-3 kg/(m s)
+k  0.545  tau  1.340  eta  0.02023 10^-3 kg/(m s)
+k  0.545  tau  1.291  eta  0.02061 10^-3 kg/(m s)
+k  0.770  tau  1.287  eta  0.01996 10^-3 kg/(m s)
+k  0.770  tau  1.230  eta  0.01952 10^-3 kg/(m s)
+k  0.770  tau  1.247  eta  0.02008 10^-3 kg/(m s)
+k  0.770  tau  1.282  eta  0.02013 10^-3 kg/(m s)
+k  0.770  tau  1.270  eta  0.01976 10^-3 kg/(m s)
+k  0.770  tau  1.236  eta  0.01961 10^-3 kg/(m s)
+k  0.943  tau  1.150  eta  0.01879 10^-3 kg/(m s)
+k  0.943  tau  1.183  eta  0.01900 10^-3 kg/(m s)
+k  0.943  tau  1.215  eta  0.01961 10^-3 kg/(m s)
+k  0.943  tau  1.223  eta  0.01940 10^-3 kg/(m s)
+k  1.089  tau  1.102  eta  0.01847 10^-3 kg/(m s)
+k  1.089  tau  1.173  eta  0.01905 10^-3 kg/(m s)
+k  1.089  tau  1.099  eta  0.01845 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 259.292 (kg/m^3)
+Average correlation time 3551253.500 Std. Dev. 5000065.000 Error 629949.000 (ps)
+k  0.545  tau  1.324  eta  0.02113 10^-3 kg/(m s)
+k  0.545  tau  1.332  eta  0.02014 10^-3 kg/(m s)
+k  0.545  tau  1.296  eta  0.02068 10^-3 kg/(m s)
+k  0.770  tau  1.287  eta  0.02002 10^-3 kg/(m s)
+k  0.770  tau  1.252  eta  0.01983 10^-3 kg/(m s)
+k  0.770  tau  1.255  eta  0.02017 10^-3 kg/(m s)
+k  0.770  tau  1.267  eta  0.02006 10^-3 kg/(m s)
+k  0.770  tau  1.267  eta  0.01981 10^-3 kg/(m s)
+k  0.770  tau  1.227  eta  0.01949 10^-3 kg/(m s)
+k  0.943  tau  1.147  eta  0.01883 10^-3 kg/(m s)
+k  0.943  tau  1.190  eta  0.01909 10^-3 kg/(m s)
+k  0.943  tau  1.222  eta  0.01975 10^-3 kg/(m s)
+k  0.943  tau  1.216  eta  0.01954 10^-3 kg/(m s)
+k  1.089  tau  1.102  eta  0.01851 10^-3 kg/(m s)
+k  1.089  tau  1.161  eta  0.01900 10^-3 kg/(m s)
+k  1.089  tau  1.104  eta  0.01848 10^-3 kg/(m s)
+Start Epilogue v3.0.1 Mon Jun 22 10:24:14 CEST 2020 
+clean up
+End Epilogue v3.0.1 Mon Jun 22 10:24:18 CEST 2020 

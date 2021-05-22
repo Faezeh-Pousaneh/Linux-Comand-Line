@@ -1,0 +1,36 @@
+# This file was created Mon Sep 16 21:06:45 2019
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/DHS/0.266/V3
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 10000 -ov LL_4000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 1.428 0.0485613
+ 1.428 0.0489734
+ 1.428 0.0495741
+ 2.019 0.0470807
+ 2.019 0.0475219
+ 2.019 0.0469578
+ 2.019 0.0473739
+ 2.019 0.046892
+ 2.019 0.047289
+ 2.473 0.0455181
+ 2.473 0.0457922
+ 2.473 0.0458543
+ 2.473 0.0461341
+ 2.856 0.0441747
+ 2.856 0.044597
+ 2.856 0.0435688

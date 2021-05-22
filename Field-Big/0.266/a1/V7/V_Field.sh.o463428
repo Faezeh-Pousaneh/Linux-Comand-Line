@@ -1,0 +1,118 @@
+No Prologue was run  Wed Jun 10 02:43:13 CEST 2020 
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.001, 0.001 nm
+Largest charge group radii for Coulomb:       0.040, 0.040 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x72, spacing 0.118 0.118 0.118
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.001, 0.001 nm
+Largest charge group radii for Coulomb:       0.040, 0.040 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.152 0.152 0.152
+This run will generate roughly 5 Mb of data
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.152 0.152 0.152
+This run will generate roughly 20 Mb of data
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.152 0.152 0.152
+This run will generate roughly 12 Mb of data
+Analysing residue names:
+There are:  6000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Largest charge group radii for Van der Waals: 0.000, 0.000 nm
+Largest charge group radii for Coulomb:       0.039, 0.039 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x56, spacing 0.152 0.152 0.152
+Selected 0: 'System'
+Density = 650.209 (kg/m^3)
+Average correlation time 2608524.500 Std. Dev. 4552877.000 Error 573608.562 (ps)
+k  0.739  tau  0.273  eta  0.03937 10^-3 kg/(m s)
+k  0.739  tau  0.309  eta  0.03944 10^-3 kg/(m s)
+k  0.739  tau  0.310  eta  0.03853 10^-3 kg/(m s)
+k  1.045  tau  0.256  eta  0.03959 10^-3 kg/(m s)
+k  1.045  tau  0.250  eta  0.03978 10^-3 kg/(m s)
+k  1.045  tau  0.260  eta  0.03955 10^-3 kg/(m s)
+k  1.045  tau  0.247  eta  0.03945 10^-3 kg/(m s)
+k  1.045  tau  0.264  eta  0.03811 10^-3 kg/(m s)
+k  1.045  tau  0.279  eta  0.03795 10^-3 kg/(m s)
+k  1.280  tau  0.243  eta  0.03880 10^-3 kg/(m s)
+k  1.280  tau  0.249  eta  0.03879 10^-3 kg/(m s)
+k  1.280  tau  0.234  eta  0.03837 10^-3 kg/(m s)
+k  1.280  tau  0.214  eta  0.03883 10^-3 kg/(m s)
+k  1.478  tau  0.249  eta  0.03726 10^-3 kg/(m s)
+k  1.478  tau  0.258  eta  0.03718 10^-3 kg/(m s)
+k  1.478  tau  0.242  eta  0.03681 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 649.653 (kg/m^3)
+Average correlation time 2603494.000 Std. Dev. 4654240.500 Error 586379.188 (ps)
+k  0.739  tau  0.275  eta  0.03933 10^-3 kg/(m s)
+k  0.739  tau  0.310  eta  0.03950 10^-3 kg/(m s)
+k  0.739  tau  0.303  eta  0.03825 10^-3 kg/(m s)
+k  1.045  tau  0.255  eta  0.03950 10^-3 kg/(m s)
+k  1.045  tau  0.256  eta  0.03993 10^-3 kg/(m s)
+k  1.045  tau  0.258  eta  0.03944 10^-3 kg/(m s)
+k  1.045  tau  0.256  eta  0.03947 10^-3 kg/(m s)
+k  1.045  tau  0.262  eta  0.03816 10^-3 kg/(m s)
+k  1.045  tau  0.277  eta  0.03787 10^-3 kg/(m s)
+k  1.280  tau  0.243  eta  0.03886 10^-3 kg/(m s)
+k  1.280  tau  0.254  eta  0.03884 10^-3 kg/(m s)
+k  1.280  tau  0.239  eta  0.03858 10^-3 kg/(m s)
+k  1.280  tau  0.213  eta  0.03867 10^-3 kg/(m s)
+k  1.478  tau  0.255  eta  0.03734 10^-3 kg/(m s)
+k  1.478  tau  0.260  eta  0.03712 10^-3 kg/(m s)
+k  1.478  tau  0.242  eta  0.03672 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 648.973 (kg/m^3)
+Average correlation time 2659637.500 Std. Dev. 4800718.500 Error 604833.688 (ps)
+k  0.739  tau  0.281  eta  0.03938 10^-3 kg/(m s)
+k  0.739  tau  0.310  eta  0.03972 10^-3 kg/(m s)
+k  0.739  tau  0.297  eta  0.03807 10^-3 kg/(m s)
+k  1.045  tau  0.256  eta  0.03954 10^-3 kg/(m s)
+k  1.045  tau  0.254  eta  0.03989 10^-3 kg/(m s)
+k  1.045  tau  0.262  eta  0.03942 10^-3 kg/(m s)
+k  1.045  tau  0.256  eta  0.03966 10^-3 kg/(m s)
+k  1.045  tau  0.260  eta  0.03813 10^-3 kg/(m s)
+k  1.045  tau  0.277  eta  0.03772 10^-3 kg/(m s)
+k  1.280  tau  0.249  eta  0.03880 10^-3 kg/(m s)
+k  1.280  tau  0.247  eta  0.03867 10^-3 kg/(m s)
+k  1.280  tau  0.239  eta  0.03855 10^-3 kg/(m s)
+k  1.280  tau  0.211  eta  0.03865 10^-3 kg/(m s)
+k  1.478  tau  0.253  eta  0.03719 10^-3 kg/(m s)
+k  1.478  tau  0.257  eta  0.03685 10^-3 kg/(m s)
+k  1.478  tau  0.240  eta  0.03669 10^-3 kg/(m s)
+Selected 0: 'System'
+Density = 648.124 (kg/m^3)
+Average correlation time 2811201.500 Std. Dev. 5270240.000 Error 663987.812 (ps)
+k  0.739  tau  0.284  eta  0.03924 10^-3 kg/(m s)
+k  0.739  tau  0.309  eta  0.03950 10^-3 kg/(m s)
+k  0.739  tau  0.296  eta  0.03807 10^-3 kg/(m s)
+k  1.045  tau  0.265  eta  0.03979 10^-3 kg/(m s)
+k  1.045  tau  0.257  eta  0.03996 10^-3 kg/(m s)
+k  1.045  tau  0.264  eta  0.03952 10^-3 kg/(m s)
+k  1.045  tau  0.251  eta  0.03939 10^-3 kg/(m s)
+k  1.045  tau  0.269  eta  0.03833 10^-3 kg/(m s)
+k  1.045  tau  0.286  eta  0.03789 10^-3 kg/(m s)
+k  1.280  tau  0.249  eta  0.03876 10^-3 kg/(m s)
+k  1.280  tau  0.246  eta  0.03852 10^-3 kg/(m s)
+k  1.280  tau  0.239  eta  0.03852 10^-3 kg/(m s)
+k  1.280  tau  0.209  eta  0.03859 10^-3 kg/(m s)
+k  1.478  tau  0.251  eta  0.03723 10^-3 kg/(m s)
+k  1.478  tau  0.255  eta  0.03678 10^-3 kg/(m s)
+k  1.478  tau  0.241  eta  0.03664 10^-3 kg/(m s)
+Start Epilogue v3.0.1 Sat Jun 13 09:21:08 CEST 2020 
+clean up
+End Epilogue v3.0.1 Sat Jun 13 09:21:13 CEST 2020 

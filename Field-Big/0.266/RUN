@@ -1,0 +1,18 @@
+array=(1 2 5 )
+
+rm *.txt*
+
+for j in "${array[@]}"
+do
+cd a$j
+
+rm *txt*
+
+./Fit_VIS.sh
+./Fit_VIS_err.sh
+./Collect_data
+
+
+cd ..
+done
+

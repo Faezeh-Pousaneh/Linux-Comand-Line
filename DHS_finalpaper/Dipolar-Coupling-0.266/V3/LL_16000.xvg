@@ -1,0 +1,36 @@
+# This file was created Tue Sep 17 00:13:08 2019
+# Created by:
+#                       :-) GROMACS - gmx tcaf, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/DHS/0.266/V3
+# Command line:
+#   gmx tcaf -f NVT_vis.trr -s NVT_vis.tpr -normalize -b 40000 -ov LL_16000.xvg
+# gmx tcaf is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Fits"
+@    xaxis  label "k (nm\S-1\N)"
+@    yaxis  label "\xh\f{} (10\S-3\N kg m\S-1\N s\S-1\N)"
+@TYPE xy
+@    s0 symbol 2
+@    s0 symbol color 1
+@    s0 linestyle 0
+ 1.428 0.0484348
+ 1.428 0.0489635
+ 1.428 0.0495334
+ 2.019 0.0471074
+ 2.019 0.0475559
+ 2.019 0.0469927
+ 2.019 0.0474476
+ 2.019 0.0469195
+ 2.019 0.0474211
+ 2.473 0.0457437
+ 2.473 0.0456351
+ 2.473 0.0459997
+ 2.473 0.0462593
+ 2.856 0.0443651
+ 2.856 0.0445233
+ 2.856 0.0435469

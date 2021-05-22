@@ -1,0 +1,254 @@
+rm: cannot remove `RDF.xvt': No such file or directory
+rm: cannot remove `rdf.xvg': No such file or directory
+                      :-) GROMACS - gmx grompp, 2016.1 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2015, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2016.1
+Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+Working dir:  /work/pousaneh/DHS/0.266/V1
+Command line:
+  gmx grompp -f NVT_rdf.mdp -c NVT.gro -p topol.top -o NVT_rdf.tpr -maxwarn 3 -t NVT.cpt
+
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+
+Back Off! I just backed up mdout.mdp to ./#mdout.mdp.1#
+
+NOTE 1 [file NVT_rdf.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 894283784
+Generated 531 of the 2016 non-bonded parameter combinations
+Excluding 2 bonded neighbours molecule type 'CO2'
+Cleaning up constraints and constant bonded interactions with virtual sites
+Number of degrees of freedom in T-Coupling group System is 4997.00
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time 1000000.000   
+Using frame at t = 1e+06 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.27
+
+NOTE 2 [file NVT_rdf.mdp]:
+  This run will generate roughly 2491 Mb of data
+
+
+There were 2 notes
+
+GROMACS reminds you: "I Am the Psychotherapist. Please, Describe Your Problems." (GNU Emacs)
+
+                        :-) GROMACS - mdrun, 2016.1 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2015, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      mdrun, version 2016.1
+Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/mdrun
+Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+Working dir:  /work/pousaneh/DHS/0.266/V1
+Command line:
+  mdrun -s NVT_rdf.tpr -deffnm NVT_rdf -table Table_HS_modif.xvg
+
+
+Back Off! I just backed up NVT_rdf.log to ./#NVT_rdf.log.1#
+
+Running on 1 node with total 16 cores, 32 logical cores
+Hardware detected on host r7i7n14 (the node of MPI rank 0):
+  CPU info:
+    Vendor: Intel
+    Brand:  Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+    SIMD instructions most likely to fit this hardware: AVX_256
+    SIMD instructions selected at GROMACS compile time: AVX_256
+
+  Hardware topology: Basic
+
+
+The current CPU can measure timings more accurately than the code in
+mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding mdrun with the GMX_USE_RDTSCP=ON CMake option.
+
+Reading file NVT_rdf.tpr, VERSION 2016.1 (single precision)
+The number of OpenMP threads was set by environment variable OMP_NUM_THREADS to 1
+Using 16 MPI processes
+
+
+NOTE: This file uses the deprecated 'group' cutoff_scheme. This will be
+removed in a future release when 'verlet' supports all interaction forms.
+
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+
+Back Off! I just backed up NVT_rdf.edr to ./#NVT_rdf.edr.1#
+
+WARNING: This run will generate roughly 2491 Mb of data
+
+starting mdrun 'CO2 in vacuo'
+900000 steps,   1800.0 ps.
+
+step 23000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 23400 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 247000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 247200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 340000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 340200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 421000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 421200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 498000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 498200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 632000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 632200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 698000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 698200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 773000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 773200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 870000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 870200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+step 889000 Turning on dynamic load balancing, because the performance loss due to load imbalance is 2.0 %.
+
+
+step 889200 Turning off dynamic load balancing, because it is degrading performance.
+
+
+Writing final coordinates.
+
+Back Off! I just backed up NVT_rdf.gro to ./#NVT_rdf.gro.1#
+
+ Average load imbalance: 8.1 %
+ Part of the total run time spent waiting due to load imbalance: 2.0 %
+
+
+NOTE: 10 % of the run time was spent communicating energies,
+      you might want to use the -gcom option of mdrun
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     4879.489      304.968     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      509.956        0.047
+
+GROMACS reminds you: "There are two major products that come out of Berkeley: LSD and UNIX. We don't believe this to be a coincidence." (Jeremy Anderson)
+
+                       :-) GROMACS - gmx rdf, 2016.1 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra    Gerrit Groenhof  
+ Christoph Junghans   Anca Hamuraru    Vincent Hindriksen Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff    Erik Marklund   
+   Teemu Murtola       Szilard Pall       Sander Pronk      Roland Schulz   
+  Alexey Shvetsov     Michael Shirts     Alfons Sijbers     Peter Tieleman  
+  Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2015, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx rdf, version 2016.1
+Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+Working dir:  /work/pousaneh/DHS/0.266/V1
+Command line:
+  gmx rdf -f NVT_rdf.xtc -s NVT_rdf.tpr -pbc -ref 1 -sel 0 -selrpos mol_com -seltype mol_com -b 50 -o RDF.xvg
+
+Reading file NVT_rdf.tpr, VERSION 2016.1 (single precision)
+Reading file NVT_rdf.tpr, VERSION 2016.1 (single precision)
+Reading frame       0 time    0.000   Reading frame       0 time   50.000   Reading frame       1 time   50.100   Reading frame       2 time   50.200   Reading frame       3 time   50.300   Reading frame       4 time   50.400   Reading frame       5 time   50.500   Reading frame       6 time   50.600   Reading frame       7 time   50.700   Reading frame       8 time   50.800   Reading frame       9 time   50.900   Reading frame      10 time   51.000   Reading frame      11 time   51.100   Reading frame      12 time   51.200   Reading frame      13 time   51.300   Reading frame      14 time   51.400   Reading frame      15 time   51.500   Reading frame      16 time   51.600   Reading frame      17 time   51.700   Reading frame      18 time   51.800   Reading frame      19 time   51.900   Reading frame      20 time   52.000   Reading frame      30 time   53.000   Reading frame      40 time   54.000   Reading frame      50 time   55.000   Reading frame      60 time   56.000   Reading frame      70 time   57.000   Reading frame      80 time   58.000   Reading frame      90 time   59.000   Reading frame     100 time   60.000   Reading frame     110 time   61.000   Reading frame     120 time   62.000   Reading frame     130 time   63.000   Reading frame     140 time   64.000   Reading frame     150 time   65.000   Reading frame     160 time   66.000   Reading frame     170 time   67.000   Reading frame     180 time   68.000   Reading frame     190 time   69.000   Reading frame     200 time   70.000   Reading frame     300 time   80.000   Reading frame     400 time   90.000   Reading frame     500 time  100.000   Reading frame     600 time  110.000   Reading frame     700 time  120.000   Reading frame     800 time  130.000   Reading frame     900 time  140.000   Reading frame    1000 time  150.000   Reading frame    1100 time  160.000   Reading frame    1200 time  170.000   Reading frame    1300 time  180.000   Reading frame    1400 time  190.000   Reading frame    1500 time  200.000   Reading frame    1600 time  210.000   Reading frame    1700 time  220.000   Reading frame    1800 time  230.000   Reading frame    1900 time  240.000   Reading frame    2000 time  250.000   Reading frame    3000 time  350.000   Reading frame    4000 time  450.000   Reading frame    5000 time  550.000   Reading frame    6000 time  650.000   Reading frame    7000 time  750.000   Reading frame    8000 time  850.000   Reading frame    9000 time  950.000   Reading frame   10000 time 1050.000   Reading frame   11000 time 1150.000   Reading frame   12000 time 1250.000   Reading frame   13000 time 1350.000   Reading frame   14000 time 1450.000   Reading frame   15000 time 1550.000   Reading frame   16000 time 1650.000   Reading frame   17000 time 1750.000   
+Analyzed 17501 frames, last time 1800.000
+
+Back Off! I just backed up RDF.xvg to ./#RDF.xvg.1#
+
+GROMACS reminds you: "I managed to get two hours of work done before work" (E. Lindahl)
+

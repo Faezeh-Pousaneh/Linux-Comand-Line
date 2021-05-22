@@ -1,0 +1,74 @@
+# This file was created Wed Oct 14 12:58:07 2020
+# Created by:
+#                     :-) GROMACS - gmx density, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V9
+# Command line:
+#   gmx density -f NVT_F.xtc -s NVT_F.tpr -dens num -b 100000
+# gmx density is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Number density (nm\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "System"
+     0.11536          19.5902
+     0.34608          19.2266
+      0.5768          19.4654
+     0.80752          19.4057
+     1.03824          19.6771
+     1.26896          19.1071
+     1.49968          19.0583
+      1.7304          18.0541
+     1.96112          20.1873
+     2.19184          19.4817
+     2.42256          19.3894
+     2.65328          19.5794
+       2.884          19.3785
+     3.11472           19.004
+     3.34544          20.1385
+     3.57616          19.2591
+     3.80688          19.2374
+      4.0376          19.6391
+     4.26832          19.8562
+     4.49904          19.1831
+     4.72976          20.1059
+     4.96048          19.5631
+      5.1912          20.1493
+     5.42192          18.8412
+     5.65264          20.4967
+     5.88336          19.4057
+     6.11408          19.9051
+      6.3448          20.3393
+     6.57552          18.9009
+     6.80624          20.3556
+     7.03696          18.9877
+     7.26768           19.156
+      7.4984          20.3339
+     7.72912          19.9105
+     7.95984          19.9756
+     8.19056          19.4545
+     8.42128          19.8779
+       8.652           19.156
+     8.88272          20.2308
+     9.11344          18.6837
+     9.34416          19.5794
+     9.57488           19.194
+      9.8056          19.0149
+     10.0363          18.5915
+      10.267          19.9485
+     10.4978          20.4587
+     10.7285          19.9431
+     10.9592          19.9539
+     11.1899          19.8779
+     11.4206          18.7597

@@ -1,0 +1,36 @@
+# This file was created Mon Nov 16 11:23:31 2020
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/Field-Big/0.266/a1/V7
+# Command line:
+#   gmx analyze -f density.xvg -ee errest_Dens.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Error estimates"
+@    xaxis  label "Block size (time)"
+@    yaxis  label "Error estimate"
+@TYPE xy
+@ subtitle "using block averaging, total time 8.33 (50 points)"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "av 48.849990"
+@ s1 legend "ee 0.0525344"
+0.17 0.0730835 0.0452623
+0.34 0.0467202 0.0489516
+0.51 0.0498022 0.0501731
+0.68 0.043001 0.0507737
+0.85 0.0450178 0.0511307
+1.02 0.0431362 0.0513673
+1.19 0.0299825 0.0515357
+1.36 0.0252886 0.0516616
+1.7 0.0435903 0.0518373
+2.04 0.0285743 0.0519542

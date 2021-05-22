@@ -1,0 +1,36 @@
+# This file was created Sun Dec 29 14:51:13 2019
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2016.1 (-:
+# 
+# Executable:   /sw/sdev/Modules/gromacs/gromacs-2016.1/bin/gmx
+# Data prefix:  /sw/sdev/Modules/gromacs/gromacs-2016.1
+# Working dir:  /work/pousaneh/0.266/V2
+# Command line:
+#   gmx analyze -f density.xvg -ee errest_Dens.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Error estimates"
+@    xaxis  label "Block size (time)"
+@    yaxis  label "Error estimate"
+@TYPE xy
+@ subtitle "using block averaging, total time 4.018 (50 points)"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "av 72.546830"
+@ s1 legend "ee 0.252586"
+0.082 0.345408 0.216422
+0.164 0.305135 0.234738
+0.246 0.165228 0.240827
+0.328 0.162706 0.243819
+0.41 0.104396 0.245598
+0.492 0.165367 0.246776
+0.574 0.138304 0.247614
+0.656 0.214412 0.248241
+0.82 0.110139 0.249116
+0.984 0.116801 0.249698
